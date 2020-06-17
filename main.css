@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 2500px;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    background: rgba(61, 62, 70, 1);
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header__items img {
+    width: 8.5rem;
+    height: 10rem;
+    transform: translateY(15%);
+    z-index: 1;
+}
+
+.button__menu button {
+    width: 2.5rem;
+    height: 2rem;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    
+}
+
+.line {
+    position: relative;
+    width: 2rem;
+    height: 0.1rem;
+    background: white;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+}
+
+.button__menu button:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+.header__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.seti img {
+    margin-right: 0.5rem;
+}
+
+#sec-1 {
+    width: 100%;
+    height: 657px;
+    background: url("images/lucas-franco-aRTjFXs6HNc-unsplash.jpg") left 10% bottom 100% / cover no-repeat border-box;
+    background-attachment: fixed;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+#sec-2 {
+    width: 100%;
+    height: 267px;
+    background: #e5e2e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec-2__item--top {
+    width: 1200px;
+    height: 132px;
+    background: #38363a;
+    border-radius: 0.8rem;
+    transform: translateY(-25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.sec-2__item--top input {
+    margin-right: 2rem;
+    width: 262px;
+    height: 50px;
+}
+
+.sec-2__item--top button {
+    width: 262px;
+    height: 50px;
+    background: #c69d4a;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: Centre Gothics, sans-serif;
+}
+
+.sec-2__item--top button:focus,
+.sec-2__item--top input:focus {
+    outline: none;
+}
+
+#sec-2 hr {
+    width: 75%;
+    background: #a29fa3;
+    border: 0.5px solid #a29fa3;
+    transform: translateY(-2rem);
+}
+
+#sec-3 {
+    width: 100%;
+    height: 357px;
+    background: radial-gradient(rgba(54, 52, 56, 0.6), rgba(54, 52, 56, 0.6)), url("images/chris-panas-Hef0SOqVsCg-unsplash.jpg") left 100% bottom 50% / cover no-repeat border-box;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+#sec-4 {
+    width: 100%;
+    height: 785px;
+    background: url("images/sec-4.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.title__gallery hr {
+    background: #b6ad9e;
+    border: 1px solid #b6ad9e;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery img {
+    margin: 0 1rem;
+}
+
+#img-1 {
+    width: 186px;
+    height: 186px;
+}
+
+#img-2 {
+    width: 245px;
+    height: 245px;
+}
+
+#img-3 {
+    width: 465px;
+    height: 315px;
+    border: 10px solid #56535a;
+}
+
+#img-4 {
+    width: 245px;
+    height: 245px;
+}
+
+#img-5 {
+    width: 186px;
+    height: 186px;
+}
+
+#footer {
+    width: 100%;
+    height: 641px;
+    background: url("images/timo-wagner-fT6-YkB0nfg-unsplash.jpg") left 10% bottom 15% / cover no-repeat border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__items {
+    width: 1195px;
+    height: 360px;
+    background: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer__items button {
+    width: 710px;
+    height: 50px;
+    background: #c69d4a;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: Centre Gothics, sans-serif;
+}
+
+.footer__items input {
+    width: 710px;
+    height: 50px;
+}
+
+.footer__items button:focus,
+.footer__items input:focus {
+    outline: none;
+}
+
