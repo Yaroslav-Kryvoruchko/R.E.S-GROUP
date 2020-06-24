@@ -73,3 +73,97 @@ html {
     transform: translateX(0%) !important;
 }
 
+.left__img2 {
+    width: 156px !important;
+    height: 156px !important;
+    transform: translateX(-172px);
+    transition: transform 0.5s ease,
+                width 0.5s ease,
+                height 0.5s ease;
+}
+
+
+.left__img3 {
+    width: 215px !important;
+    height: 215px !important;
+    transform: translateX(-172px);
+    transition: transform 0.5s ease,
+                width 0.5s ease,
+                height 0.5s ease;
+    border: none !important;
+}
+
+
+.left__img4 {
+    width: 435px !important;
+    height: 285px !important;
+    border: 10px solid #56535a;
+    transform: translateX(-172px);
+    transition: transform 0.5s ease,
+                width 0.5s ease,
+                height 0.5s ease;
+}
+
+
+.left__img5 {
+    width: 215px !important;
+    height: 215px !important;
+    transform: translateX(-172px);
+    transition: transform 0.5s ease,
+                width 0.5s ease,
+                height 0.5s ease;
+}
+
+.left__img3-2 {
+    width: 156px !important;
+    height: 156px !important;
+    transform: translateX(-344px);
+    transition: transform 0.5s ease,
+                width 0.5s ease,
+                height 0.5s ease;
+    border: none !important;
+}
+
+
+.left__img4-2 {
+    width: 215px !important;
+    height: 215px !important;
+    border: none !important;
+    transform: translateX(-344px);
+    transition: transform 0.5s ease,
+                width 0.5s ease,
+                height 0.5s ease;
+}
+
+
+.left__img5-2 {
+    width: 435px !important;
+    height: 285px !important;
+    border: 10px solid #56535a;
+    transform: translateX(-344px);
+    transition: transform 0.5s ease,
+                width 0.5s ease,
+                height 0.5s ease;
+}
+
+.right__img4-2 {
+    width: 215px !important;
+    height: 215px !important;
+    border: none !important;
+    transform: translateX(-344px);
+    transition: transform 0.5s ease,
+                width 0.5s ease,
+                height 0.5s ease;
+}
+
+
+.right__img5-2 {
+    width: 435px !important;
+    height: 285px !important;
+    border: 10px solid #56535a;
+    transform: translateX(-344px);
+    transition: transform 0.5s ease,
+                width 0.5s ease,
+                height 0.5s ease;
+}
+

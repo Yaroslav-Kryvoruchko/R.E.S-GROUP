@@ -70,7 +70,7 @@ body {
     width: 100%;
     height: 657px;
     background: url("images/lucas-franco-aRTjFXs6HNc-unsplash.jpg") left 10% bottom 100% / cover no-repeat border-box;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     position: relative;
     left: 0;
     top: 0;
@@ -159,7 +159,7 @@ body {
     width: 100%;
     height: 357px;
     background: radial-gradient(rgba(54, 52, 56, 0.6), rgba(54, 52, 56, 0.6)), url("images/chris-panas-Hef0SOqVsCg-unsplash.jpg") left 100% bottom 50% / cover no-repeat border-box;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,6 +191,13 @@ body {
     margin: 0 0.5rem;
 }
 
+.gallery__img {
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #img-1 {
     width: 156px;
     height: 156px;
@@ -217,18 +224,31 @@ body {
     height: 156px;
 }
 
-#line-gallery {
+#line-gallery__left {
     width: 36px;
     height: 57px;
     margin: 0 2rem;
     cursor: pointer;
 }
 
+#line-gallery__right {
+    width: 36px;
+    height: 57px;
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.line__left {
+    transform: rotate(180deg);
+    position: relative;
+    display: block;
+}
+
 #footer {
     width: 100%;
     height: 641px;
     background: radial-gradient(rgba(54, 52, 56, 0.6), rgba(54, 52, 56, 0.6)), url("images/timo-wagner-fT6-YkB0nfg-unsplash.jpg") left 10% bottom 15% / cover no-repeat border-box;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     display: flex;
     flex-direction: column;
     align-items: center;
