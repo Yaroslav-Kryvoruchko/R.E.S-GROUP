@@ -54,7 +54,7 @@ html {
 
 .button__up a {
     position: fixed;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     bottom: 5%;
@@ -65,6 +65,12 @@ html {
     padding: 0.2rem;
     z-index: 10;
     transform: rotate(-90deg);
+}
+
+@media (min-width: 70.4rem) {
+    .button__up a {
+        display: flex;
+    }
 }
 
 .open {
