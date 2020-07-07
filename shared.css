@@ -85,7 +85,7 @@ html {
     transform: translateX(-172px);
     transition: transform 0.5s ease,
                 width 0.5s ease,
-                height 0.5s ease;
+                height 0.5s ease !important;
 }
 
 
@@ -95,7 +95,7 @@ html {
     transform: translateX(-172px);
     transition: transform 0.5s ease,
                 width 0.5s ease,
-                height 0.5s ease;
+                height 0.5s ease !important;
     border: none !important;
 }
 
@@ -107,7 +107,7 @@ html {
     transform: translateX(-172px);
     transition: transform 0.5s ease,
                 width 0.5s ease,
-                height 0.5s ease;
+                height 0.5s ease !important;
 }
 
 
@@ -117,7 +117,7 @@ html {
     transform: translateX(-172px);
     transition: transform 0.5s ease,
                 width 0.5s ease,
-                height 0.5s ease;
+                height 0.5s ease !important;
 }
 
  .left__img3-2 {
@@ -242,6 +242,10 @@ html {
                 width 0.5s ease,
                 height 0.5s ease;
     border: none !important;
+}
+
+.openbutton {
+    display: block !important;
 }
 
 
