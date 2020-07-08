@@ -85,7 +85,7 @@ html {
     transform: translateX(-172px);
     transition: transform 0.5s ease,
                 width 0.5s ease,
-                height 0.5s ease !important;
+                height 0.5s ease;
 }
 
 
@@ -95,7 +95,7 @@ html {
     transform: translateX(-172px);
     transition: transform 0.5s ease,
                 width 0.5s ease,
-                height 0.5s ease !important;
+                height 0.5s ease;
     border: none !important;
 }
 
@@ -107,7 +107,7 @@ html {
     transform: translateX(-172px);
     transition: transform 0.5s ease,
                 width 0.5s ease,
-                height 0.5s ease !important;
+                height 0.5s ease;
 }
 
 
@@ -117,7 +117,7 @@ html {
     transform: translateX(-172px);
     transition: transform 0.5s ease,
                 width 0.5s ease,
-                height 0.5s ease !important;
+                height 0.5s ease;
 }
 
  .left__img3-2 {

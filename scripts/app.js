@@ -19,7 +19,7 @@ function right() {
     ButtonLeft2.classList.add('openbutton');
     ButtonRight2.classList.add('openbutton');
 
-    let i = 1;
+    let i = 2;
 
 
 ButtonLeft2.addEventListener('click', ()=> {
@@ -43,13 +43,7 @@ ButtonLeft2.addEventListener('click', ()=> {
 })
 
 ButtonRight2.addEventListener('click', ()=> {
-    if(i === 1) {
-        Img1.classList.add('right__img1');
-        Img2.classList.add('right__img2');
-        Img3.classList.add('right__img3');
-        Img4.classList.add('right__img4');
-        i++;
-    }else if(i === 2){
+    if(i === 2){
         Img1.classList.add('right__img1-2');
         Img2.classList.add('right__img2-2');
         Img3.classList.add('right__img3-2');
@@ -66,18 +60,12 @@ function left() {
     ButtonLeft3.classList.add('openbutton');
     ButtonRight3.classList.add('openbutton');
 
-    let l = 1;
+    let l = 2;
     console.log(l);
 
     ButtonLeft3.addEventListener('click', ()=> {
-        if(l === 1) {
-            Img2.classList.add('left__img2');
-            Img3.classList.add('left__img3');
-            Img4.classList.add('left__img4');
-            Img5.classList.add('left__img5');
-            l++;
-            console.log(l);
-        }else if(l === 2) {
+
+        if(l === 2) {
             Img3.classList.add('left__img3-2');
             Img4.classList.add('left__img4-2');
             Img5.classList.add('left__img5-2');
@@ -108,5 +96,18 @@ function left() {
     })
 }
 
-ButtonLeft.addEventListener("click", left);
-ButtonRight.addEventListener("click", right);
+ButtonLeft.addEventListener("click", ()=> {
+    Img2.classList.add('left__img2');
+    Img3.classList.add('left__img3');
+    Img4.classList.add('left__img4');
+    Img5.classList.add('left__img5');
+    left();
+});
+
+ButtonRight.addEventListener("click", ()=> {
+    Img1.classList.add('right__img1');
+    Img2.classList.add('right__img2');
+    Img3.classList.add('right__img3');
+    Img4.classList.add('right__img4');
+    right();
+});
